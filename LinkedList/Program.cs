@@ -17,6 +17,8 @@ namespace LinkedList
             Console.WriteLine("index position of element 30 is: " + a);
             list.InsertAtPerticularPosition(a + 1, 40);
             list.DisPlay();
+            list.RemoveFirstNode(56);
+            list.DisPlay();
 
 
         }
