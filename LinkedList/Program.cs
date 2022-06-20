@@ -9,9 +9,11 @@ namespace LinkedList
         {
             Console.WriteLine("Hello, World!");
             LinkedListData list = new LinkedListData();
-            list.Add(56);
-            list.Add(30);
+           // list.Add(56);
+           // list.Add(30);
             list.Add(70);
+            list.AddMethod(30);
+            list.AddMethod(56);
             list.DisPlay();
 
         }
